@@ -1,7 +1,7 @@
 {{ define "bodyID" }}episode-page{{ end }}
 
 {{ define "main" }}
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="episode-post" itemscope itemtype="http://schema.org/BlogPosting">
         <div class="content" itemprop="articleBody">
             {{/* The dot context below passes the entire episode object */}}
             {{ partial "episode-module.html" . }}
