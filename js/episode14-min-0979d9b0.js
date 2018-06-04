@@ -1,0 +1,1 @@
+!function(){"use strict";var e=document.querySelector(".episode-image img");var s=window.KonamIRL(["16738276","738276"],function(){s.unload(),e.src="/images/episodes/14/artwork-alt.jpg",e.srcset="/images/episodes/14/artwork-alt-high-res.jpg 2x"})}();
