@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# DEBUG
+set -x
+set -e
+
 cd "$(dirname ${BASH_SOURCE[0]})"/..
 mkdir -p ./release
 
