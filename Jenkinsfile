@@ -43,7 +43,7 @@ node {
       buildSite('stage')
       syncS3('irlpodcast-stage')
     } else if ( env.BRANCH_NAME == 'master-debug' ) {
-      # Same as master, but with debug enabled
+      /* Same as master, but with debug enabled */
       buildSite('stage')
       syncS3('irlpodcast-stage')
     } else if ( env.BRANCH_NAME == 'prod' ) {
