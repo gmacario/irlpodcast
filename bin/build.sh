@@ -10,7 +10,7 @@ mkdir -p ./release
 # DEBUG
 pwd
 ls -la
-docker run --rm --volume=${PWD}:/srv ubuntu /bin/bash -c "ls -la /srv"
+docker run --rm --volume=${PWD}:/srv2 ubuntu /bin/bash -c "ls -la /srv2"
 
 # let gulp build the assets
 docker run --rm --label=gulp \
