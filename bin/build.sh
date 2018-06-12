@@ -7,6 +7,10 @@ set -e
 cd "$(dirname ${BASH_SOURCE[0]})"/..
 mkdir -p ./release
 
+# DEBUG
+pwd
+ls -la
+
 # let gulp build the assets
 docker run --rm --label=gulp \
     --volume=$(pwd):/srv \
